@@ -1,0 +1,217 @@
+header{
+    background-color: greenyellow;
+    color:blue;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: caption;
+    text-align:center;
+}
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+section{
+    background-color: beige;
+}
+/*Below is the style sheet for the mobile web application */
+@media(max-width:767px){
+    #box1{
+        background-color:yellow;
+        float:center;
+        color:green;                                                                    
+        border:1px solid black;
+        position:relative;
+        right:0px;
+        top:10px;
+        margin:5px;
+        bottom:10px;
+        right:5px;
+        left: 5px;
+
+    }
+    #box1 h1{
+        position:relative;
+        text-align: right;
+        background-color: greenyellow;
+        float:right;
+        color:red;
+        border: 1px solid black;
+        right:10px;
+    }
+    #box2{
+        background-color:yellow;
+        float:center;
+        color:green;                                                                    
+        border:1px solid black;
+        position:relative;
+        right:5px;
+        top:10px;
+        margin: 5px;
+        bottom:10px;
+        left:5px;
+    }
+    #box2 h1{
+        position:relative;
+        text-align: right;
+        background-color: blueviolet;
+        float: right;
+        color:yellow;
+        border:1px solid black;
+        right: 10px;
+    }
+    #box3{
+        background-color:yellow;
+        float:center;
+        color:green;                                                                    
+        border:1px solid black;
+        position:relative;
+        right:5px;
+        top:10px;
+        margin: 5px;
+        bottom:10px;
+        left:5px;
+    }
+    #box3 h1{
+        position:relative;
+        text-align: right;
+        background-color:orange;
+        float: right;
+        color:blue;
+        border:1px solid black;
+        right: 10px;
+    }
+
+    
+    
+}
+/*Below is the specific stylesheet for the tablet application*/
+@media(min-width:768px) and (max-width:991px){
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:50px;
+    }
+    
+    #box1{
+        background-color:yellow;
+        float:left;
+        color:green;                                                                    
+        border:1px solid black;
+        position:relative;
+        right:0px;
+        top:10px;
+        margin:5px;
+        bottom:10px;
+        right:5px;
+        left: 5px;
+        width:400px;
+        clear: left;
+
+    }
+    #box1 h1{
+        position:relative;
+        text-align: right;
+        background-color: greenyellow;
+        float:right;
+        color:red;
+        border: 1px solid black;
+        right:10px;
+    }
+    #box2{
+        background-color:yellow;
+        float:right;
+        color:green;                                                                    
+        border:1px solid black;
+        position:relative;
+        right:5px;
+        top:10px;
+        margin: 5px;
+        bottom:10px;
+        left:5px;
+        width:400px;
+        clear:right;
+    }
+    #box2 h1{
+        position:relative;
+        text-align: right;
+        background-color: blueviolet;
+        float: right;
+        color:yellow;
+        border:1px solid black;
+        right: 10px;
+    }
+    #box3{
+        background-color:yellow;
+        float:center;
+        color:green;                                                                    
+        border:1px solid black;
+        position:relative;
+        right:5px;
+        top:10px;
+        margin: 5px;
+        bottom:10px;
+        left:5px;
+        clear:both;
+    }
+    #box3 h1{
+        position:relative;
+        text-align: right;
+        background-color:orange;
+        float: right;
+        color:blue;
+        border:1px solid black;
+        right: 10px;
+    }
+}
+/*Below we finally deal with the desktop application*/
+@media(min-width:992px){
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+    }
+    #box1{
+        background-color:yellow;
+        color:green;                                                                    
+        border:1px solid black;
+    }
+    #box1 h1{
+        position:relative;
+        text-align: right;
+        background-color: greenyellow;
+        float:right;
+        color:red;
+        border: 1px solid black;
+        right:10px;
+    }
+    #box2{
+        background-color:yellow;
+        color:green;                                                                    
+        border:1px solid black;
+        
+    }
+    #box2 h1{
+        position:relative;
+        text-align: right;
+        background-color: blueviolet;
+        float: right;
+        color:yellow;
+        border:1px solid black;
+        right: 10px;
+    }
+    #box3{
+        background-color:yellow;
+        color:green;                                                                    
+        border:1px solid black;
+       
+    }
+    #box3 h1{
+        position:relative;
+        text-align: right;
+        background-color:orange;
+        float: right;
+        color:blue;
+        border:1px solid black;
+        right: 10px;
+    }
+}
