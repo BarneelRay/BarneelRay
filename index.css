@@ -16,7 +16,7 @@ section{
 /*Below is the style sheet for the mobile web application */
 @media(max-width:767px){
     #box1{
-        background-color:yellow;
+        background-color:pink;
         float:center;
         color:green;                                                                    
         border:1px solid black;
@@ -39,7 +39,7 @@ section{
         right:10px;
     }
     #box2{
-        background-color:yellow;
+        background-color:pink;
         float:center;
         color:green;                                                                    
         border:1px solid black;
@@ -60,7 +60,7 @@ section{
         right: 10px;
     }
     #box3{
-        background-color:yellow;
+        background-color:pink;
         float:center;
         color:green;                                                                    
         border:1px solid black;
@@ -93,7 +93,7 @@ section{
     }
     
     #box1{
-        background-color:yellow;
+        background-color:pink;
         float:left;
         color:green;                                                                    
         border:1px solid black;
@@ -118,7 +118,7 @@ section{
         right:10px;
     }
     #box2{
-        background-color:yellow;
+        background-color:pink;
         float:right;
         color:green;                                                                    
         border:1px solid black;
@@ -141,7 +141,7 @@ section{
         right: 10px;
     }
     #box3{
-        background-color:yellow;
+        background-color:pink;
         float:center;
         color:green;                                                                    
         border:1px solid black;
@@ -171,7 +171,7 @@ section{
         grid-gap: 50px;
     }
     #box1{
-        background-color:yellow;
+        background-color:pink;
         color:green;                                                                    
         border:1px solid black;
     }
@@ -200,7 +200,7 @@ section{
         right: 10px;
     }
     #box3{
-        background-color:yellow;
+        background-color:pink;
         color:green;                                                                    
         border:1px solid black;
        
